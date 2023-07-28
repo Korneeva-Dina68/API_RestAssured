@@ -1,0 +1,27 @@
+<div>PUT to http://localhost:5000/api/cart</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;cartId&quot;: &quot;649b1b2465c96d0012fd272c&quot;,
+    &quot;itemId&quot;: &quot;64936257b6fcf1a02a330baa&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.RWxsaXMgS2F1dHplcg.0QhqgeYX6fkTjKSAU_LXCaXRvAmgwxB59m_1qz9CNk0</div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;http://localhost:5000/api/cart&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.RWxsaXMgS2F1dHplcg.0QhqgeYX6fkTjKSAU_LXCaXRvAmgwxB59m_1qz9CNk0&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;cartId&quot;: &quot;649b1b2465c96d0012fd272c&quot;,
+    &quot;itemId&quot;: &quot;64936257b6fcf1a02a330baa&quot;
+}&#39;
+</div>
